@@ -1,9 +1,9 @@
 // store.js
 import { configureStore } from '@reduxjs/toolkit';
-import venueReducer from './venueSlice';
+import cartReducer from './cartSlice';
 
 export default configureStore({
   reducer: {
-    venue: venueReducer,
+    cart: cartReducer,
   },
 });
